@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "@/utils/tw-merge";
+import { cn } from "@/utils";
 
 interface CardProps {
     className?: string;
