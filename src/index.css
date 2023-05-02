@@ -4,6 +4,15 @@
  
 @layer base {
   body {
-    @apply dark:bg-stone-900;
+    @apply dark:bg-[#1e1e20] flex place-items-center min-h-screen;
+  }
+  #root {
+    @apply max-w-screen-xl mx-auto p-10 text-center;
+  }
+}
+
+@layer components {
+  .logo {
+    @apply h-36 w-36 p-5 inline;
   }
 }
